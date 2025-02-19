@@ -48,6 +48,8 @@ public class Main {
 
         Estudiante estudiante = new Estudiante(id, nombres, apellidos, correo, telefono, edad);
         estudiante.mostrarInformacion();
+        Estudiante estudiante2 = new Estudiante(id, nombres, apellidos, correo, telefono, edad);
+        estudiante2.mostrarInformacion();
 
 
     }
